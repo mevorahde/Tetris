@@ -1,16 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+header {
+    color: white;
+    background: rgba(19, 28, 39, 1);
+    padding-bottom: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    padding-right: 15rem;
+}
+
+.main-head {
+    background-color: #131c27;
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    flex: 2 1 40rem;
+    font-family: "Pattaya", sans-serif;
+    font-weight: 150;
+}
+
+
+
+.hero {
+    min-height: 50vh;
+    width: 100%;
+    height: 60%;
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: lightseagreen;
+}
+
+
+.info {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1rem;
+    margin: 3rem;
+    border-radius: 1rem;
+    border: 1rem solid black;
+    -webkit-border-radius: 1rempx;
+    -moz-border-radius: 1rempx;
+    -ms-border-radius: 1rempx;
+    -o-border-radius: 1rempx;
+    background: #27394e;
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: background 0.5s ease-in-out;
+    -webkit-transition: background 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out;
+    -ms-transition: background 0.5s ease-in-out;
+    -o-transition: background 0.5s ease-in-out;
+}
+
+button:hover {
+    background-color: #4c6e97;
+}
+
+button:focus {
+    background: #4c6e97;
+    outline-style: solid;
+}
+
 .grid {
-    height: 42.96vh;
-    width: 15.65vw;
+    width: 200px;
+    height: 400px;
     display: flex;
     flex-wrap: wrap;
     background-color: yellow;
+    margin-bottom: 0.5rem;
+
 }
 
 .grid div {
-    height: 2.15vh;
-    width: 1.56vw;
+    height: 20px;
+    width: 20px;
 }
+
+.mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+    margin-bottom: 19.8rem;
+}
+
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
+
+
 
 .tetromino {
     background-color: blue;
 }
+
+
+/*FOOTER Section - Start*/
+
+footer {
+    color: white;
+    background: rgba(19, 28, 39, 1);
+}
+
+footer a {
+    color: white;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.footer-wrapper p {
+    flex: 1 1 40rem;
+    padding: 1rem;
+}
+
+.footer-text {
+    text-align: center;
+    flex: 1 1 40rem;
+}
+
+footer ul {
+    display: flex;
+    flex: 1 1 40rem;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*FOOTER Section - End*/
